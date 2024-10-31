@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: icwpsa\n"
+"POT-Creation-Date: 2021-03-04 15:17-0500\n"
+"PO-Revision-Date: 2021-03-04 15:17-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../src\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: hooks/admin.php:23 views/loader.php:24
+msgid "Permissions & Security Audit by Innocow"
+msgstr "Audit de Sécurité par Innocow"
+
+#: hooks/admin.php:24
+msgid "Permissions & Security Audit"
+msgstr "Audit de Sécurité"
+
+#: views/loader.php:40 views/pages/about.php:62
+msgid "About"
+msgstr "À propos"
+
+#: views/loader.php:41 views/pages/permission.php:211
+msgid "File & Folder Permissions"
+msgstr "Autorisations de fichier et de dossier"
+
+#: views/loader.php:42 views/pages/ownership.php:244
+msgid "File & Folder Ownership"
+msgstr "Propriété du fichier et du dossier"
+
+#: views/loader.php:43 views/pages/wp_configuration.php:456
+msgid "WP Configuration"
+msgstr "WP Configuration"
+
+#: views/loader.php:44 views/pages/sys_configuration.php:341
+msgid "System Configuration"
+msgstr "Configuration du système"
+
+#: views/pages/about.php:63
+msgid "Best Practices and Advice"
+msgstr "Pratiques exemplaires et conseils"
+
+#: views/pages/about.php:64
+msgid "Helpful Links"
+msgstr "Liens utiles"
+
+#: views/pages/about.php:65
+msgid "Further Help"
+msgstr "Aide supplémentaire"
+
+#: views/pages/about.php:66
+msgid "☕ Is this plugin useful? Send us a tip and buy us a coffee(s)!"
+msgstr ""
+"☕ Ce plugin est-il utile ? Envoyez-nous un pourboire et achetez-nous un "
+"café(s)!"
+
+#: views/pages/ownership.php:20 views/pages/permission.php:20
+#: views/pages/sys_configuration.php:20 views/pages/wp_configuration.php:20
+msgid "Scanning"
+msgstr "En cours"
+
+#: views/pages/ownership.php:21 views/pages/permission.php:21
+#: views/pages/sys_configuration.php:21 views/pages/wp_configuration.php:21
+msgid "Audit Completed"
+msgstr "Vérification terminée"
+
+#: views/pages/ownership.php:22 views/pages/permission.php:22
+msgid "Jump to top"
+msgstr "Sauter vers le haut"
+
+#: views/pages/ownership.php:23 views/pages/permission.php:23
+msgid "No items found not matching audit criteria."
+msgstr "Aucun article trouvé ne correspondant pas aux critères d'audit."
+
+#: views/pages/ownership.php:24 views/pages/permission.php:24
+msgid "Found ${n} item(s) not matching audit criteria."
+msgstr "Trouvé ${n} article(s) ne correspond pas aux critères d’audit."
+
+#: views/pages/ownership.php:25 views/pages/permission.php:25
+#: views/pages/sys_configuration.php:23 views/pages/wp_configuration.php:22
+msgid "Passed"
+msgstr "Réussi"
+
+#: views/pages/ownership.php:26 views/pages/permission.php:26
+#: views/pages/sys_configuration.php:24 views/pages/wp_configuration.php:23
+msgid "Warning"
+msgstr "Alerte"
+
+#: views/pages/ownership.php:245 views/pages/permission.php:220
+#: views/pages/sys_configuration.php:342 views/pages/wp_configuration.php:457
+msgid "Audit"
+msgstr "Vérifier"
+
+#: views/pages/permission.php:27 views/pages/permission.php:215
+msgid "User"
+msgstr "Propriétaire"
+
+#: views/pages/permission.php:28 views/pages/permission.php:216
+msgid "Group"
+msgstr "Groupe"
+
+#: views/pages/permission.php:29 views/pages/permission.php:217
+msgid "Other"
+msgstr "Les autres"
+
+#: views/pages/permission.php:212
+msgid "Both Files & Folders"
+msgstr "Les deux fichiers et dossiers"
+
+#: views/pages/permission.php:213
+msgid "Files"
+msgstr "Fichiers"
+
+#: views/pages/permission.php:214
+msgid "Folders"
+msgstr "Dossiers"
+
+#: views/pages/permission.php:218
+msgid "read/write (rw)"
+msgstr "lecture/écriture (rw)"
+
+#: views/pages/permission.php:219
+msgid "read (r)"
+msgstr "lire (r)"
+
+#: views/pages/sys_configuration.php:22
+msgid "Pending"
+msgstr "En attente"
+
+#: views/pages/sys_configuration.php:25 views/pages/wp_configuration.php:24
+msgid "Audit passed: no issues found."
+msgstr "Aucun article trouvé ne correspondant pas aux critères d'audit."
+
+#: views/pages/sys_configuration.php:28
+msgid "Enabled Sensitive Functions in PHP"
+msgstr "Fonctions sensibles activées en PHP"
+
+#: views/pages/sys_configuration.php:30
+msgid "Error Display Status in PHP"
+msgstr "État de l’affichage des erreurs dans PHP"
+
+#: views/pages/sys_configuration.php:32
+msgid "HTTPS State"
+msgstr "État HTTPS"
+
+#: views/pages/sys_configuration.php:34
+msgid "Indexable Folders"
+msgstr "Dossiers indexables"
+
+#: views/pages/wp_configuration.php:27
+msgid "Problematic REST Routes"
+msgstr "Itinéraires REST problématiques"
+
+#: views/pages/wp_configuration.php:29
+msgid "Common Admin Usernames"
+msgstr "Noms d'utilisateur d'administration communs"
+
+#: views/pages/wp_configuration.php:31
+msgid "Default Table Prefix"
+msgstr "Préfixe de table par défaut"
+
+#: views/pages/wp_configuration.php:33
+msgid "File Editor Access"
+msgstr "Accès à l'éditeur de fichiers"
+
+#: views/pages/wp_configuration.php:35
+msgid "Author=1 Page Check"
+msgstr "Vérification de la page: Author=1"
+
+#: views/pages/wp_configuration.php:37
+msgid "Default Login URL"
+msgstr "URL de connexion par défaut"
+
+#: views/pages/wp_configuration.php:39
+msgid "Core Auto Update"
+msgstr "Mise à jour automatique de base"
+
+#~ msgid "About & Help"
+#~ msgstr "À propos & d'aide"
+
+#~ msgid "Test Details"
+#~ msgstr "Détails du test"

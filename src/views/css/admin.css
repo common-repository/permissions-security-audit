@@ -1,0 +1,110 @@
+.formelementcontainer {
+    margin: 15px 0px;
+}
+
+.label-warning {
+    color: #daa520;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.label-passed {
+    color: #2e8b57;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.label-pending {
+    color: #aeaeae;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+
+.result-mini {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.result-mini > ol {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 3em;
+}
+
+.result-mini-title {
+    display: inline;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.result-mini-status {
+    display: inline;
+    border: 1px solid;
+    padding: 2px 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.result-mini-desc {
+    display: block;
+    
+}
+
+.result-mini-desc > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-emphasis {
+    font-style: italic;
+}
+
+.postbox .inside {
+    margin: 0px;
+    padding-bottom: 0px;    
+}
+
+.text-emphasis-contact, .text-emphasis-contact > a {
+    color: #2e8b57;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    ol {
+        word-break: break-all;
+    }
+
+    form .tablenav {
+        padding: 0px;
+    }
+
+    .formelement {
+        padding: 0px;
+        float: none;
+    }
+
+    .formelement input, select {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .formelement .button {
+        margin-top: 10px;
+    }
+
+    .result-mini-title {
+        display: inline-block;
+    }
+
+    .result-mini-title {
+        display: inline-block;
+    }
+
+    .result-mini-status {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+}

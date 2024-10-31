@@ -1,0 +1,1 @@
+icwpsa-fr_FR.mo
